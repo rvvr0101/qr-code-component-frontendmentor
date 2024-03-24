@@ -64,12 +64,12 @@ img {
 }
 
 @media (max-width: 768px) {
-    /* Styles for screens smaller than 768px */
     .container {
-      max-width: 80%;
+        width: 80%;
+      max-width: 300px;
       padding: 10px;
     }
     #qrparagraph {
-      font-size: 0.8rem;  /* Adjust font size for smaller screens */
+      font-size: 0.8rem; 
     }
   }
