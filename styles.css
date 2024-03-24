@@ -16,8 +16,8 @@
 
 body {
     background-color: var(--Light_gray);
-    
-   width: 100dvi;
+    font-size: 15px;
+   width: 100vw;
    height: auto;
    max-height: 100%;
 }
@@ -63,10 +63,13 @@ img {
     margin-bottom: 24px;
 }
 
-@media (max-width: 670px), (max-height:525px) {
+@media (max-width: 768px) {
+    /* Styles for screens smaller than 768px */
     .container {
-        max-width: 200px;
-        gap: 8px;
-        max-height: 400px;
+      max-width: 80%;
+      padding: 10px;
     }
-}
+    #qrparagraph {
+      font-size: 0.8rem;  /* Adjust font size for smaller screens */
+    }
+  }
