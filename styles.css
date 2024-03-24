@@ -16,13 +16,11 @@
 
 body {
     background-color: var(--Light_gray);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
    width: 100dvi;
    height: auto;
    max-height: 100%;
-   overflow: hidden;
+   
    position: absolute;
    top: 50%;
    left: 50%;
@@ -35,7 +33,7 @@ img {
     max-width: 280px;
     height: auto;
     width:auto;
-
+    
 }
 
 .container {
@@ -45,12 +43,12 @@ img {
     align-items: center;
     justify-content: space-evenly;
     border-radius: 10px;
-    width: 300px;
-    height: 500px;
+    width: 280px;
+    height: auto;
     margin: 0 auto;
     background-color: var(--White);
-  
-    
+    padding: 10px;
+    gap: 25px;
     
 
 }
@@ -64,5 +62,7 @@ img {
     font-family: "Outfit";
     font-weight: 400;
     max-width: 90%;
+    color: var(--Grayish_blue);
+    margin-bottom: 30px;
 }
 
