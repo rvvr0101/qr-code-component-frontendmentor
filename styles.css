@@ -63,3 +63,10 @@ img {
     margin-bottom: 24px;
 }
 
+@media (max-width: 670px), (max-height:525px) {
+    .container {
+        max-width: 200px;
+        gap: 8px;
+        max-height: 400px;
+    }
+}
